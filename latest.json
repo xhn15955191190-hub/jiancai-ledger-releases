@@ -1,7 +1,7 @@
 {
-  "versionCode": 19,
-  "versionName": "1.9",
-  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v1.9/jiancai-ledger-v1.9.apk",
-  "sha256": "36c3257cdab923a693eb0c0f98de75a4cd9bffb00f20ad131ff137660e9e86d5",
-  "notes": "新增自动检查更新、下载校验、更新前自动备份和系统覆盖安装。账单、API 与打印配置会保留。"
+  "versionCode": 20,
+  "versionName": "2.0",
+  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.0/jiancai-ledger-v2.0.apk",
+  "sha256": "e8ceda3e2b2a522bb18b75c636be57cbd6cdbcbe5eafe0c7a6a17f310110bc9e",
+  "notes": "增加管理员数据维护页的手动检查更新入口，缩短自动检查间隔，完善更新前数据库备份检查。"
 }
