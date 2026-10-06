@@ -1,7 +1,7 @@
 {
-  "versionCode": 20,
-  "versionName": "2.0",
-  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.0/jiancai-ledger-v2.0.apk",
-  "sha256": "e8ceda3e2b2a522bb18b75c636be57cbd6cdbcbe5eafe0c7a6a17f310110bc9e",
-  "notes": "增加管理员数据维护页的手动检查更新入口，缩短自动检查间隔，完善更新前数据库备份检查。"
+  "versionCode": 21,
+  "versionName": "2.1",
+  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.1/jiancai-ledger-v2.1.apk",
+  "sha256": "5d600d7ec0e634748be193cbb03c18a314599ab534484f3d95266d73e79b31d0",
+  "notes": "完善在线更新反馈：显示当前版本、已是最新版或网络检查失败；手动检查绕过等待间隔。"
 }
