@@ -1,0 +1,7 @@
+{
+  "versionCode": 19,
+  "versionName": "1.9",
+  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v1.9/jiancai-ledger-v1.9.apk",
+  "sha256": "36c3257cdab923a693eb0c0f98de75a4cd9bffb00f20ad131ff137660e9e86d5",
+  "notes": "新增自动检查更新、下载校验、更新前自动备份和系统覆盖安装。账单、API 与打印配置会保留。"
+}
