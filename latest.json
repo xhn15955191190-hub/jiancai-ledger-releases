@@ -1,7 +1,7 @@
 {
-  "versionCode": 25,
-  "versionName": "2.5",
-  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.5/jiancai-ledger-v2.5.apk",
-  "sha256": "d6822338aa47aeb5ae6b4915e2bf9301db37e47242c3ec4c5d30d5baae0bc934",
-  "notes": "语音开单可搜索并手动选择客户或散客，同名客户按客户编号关联。底部保留入账、入账并打印：入账成功后打开本单打印预览，确认后才出纸；已入账可直接打印本单，防止重复提交。保留2.4的居中放大打印标题；API、云盒设置、原有数据及安装前本机保护点机制保持不变。"
+  "versionCode": 27,
+  "versionName": "2.7",
+  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.7/jiancai-ledger-v2.7.apk",
+  "sha256": "6f89d54fb5996dc866d17e5993c4781c080367c28240532f3057d2f996c19bcd",
+  "notes": "语音开单的选择客户窗口新增「新增客户」：填写姓名后保存，即可自动选入本单，电话、地址和备注选填。保留原同名客户校验，并防止重复点击保存。修复删掉语音草稿全部商品后旧运费带入下一批商品的问题，删除部分商品仍保留运费，支持原撤销/重做。延续原账单、API 和云盒设置存储，更新前仍须成功创建并校验本机保护点。请通过软件内检查更新覆盖安装，不要卸载。"
 }
