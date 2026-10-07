@@ -1,7 +1,7 @@
 {
-  "versionCode": 24,
-  "versionName": "2.4",
-  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.4/jiancai-ledger-v2.4.apk",
-  "sha256": "71e4b0a7a8c59d5bbcfc029aa2559bf35462093aac6bcb2bd44ec07d5b214478",
-  "notes": "打印预览和实际打印：小徐建材销售单改为顶部居中，字号适当放大并加粗；电话移到右侧，避免重叠。保留原纸张尺寸、商品表格、金额和分页。本次不改账单、API及云盒设置；下载完成后请使用“备份并安装”覆盖更新，不要卸载旧版。"
+  "versionCode": 25,
+  "versionName": "2.5",
+  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.5/jiancai-ledger-v2.5.apk",
+  "sha256": "d6822338aa47aeb5ae6b4915e2bf9301db37e47242c3ec4c5d30d5baae0bc934",
+  "notes": "语音开单可搜索并手动选择客户或散客，同名客户按客户编号关联。底部保留入账、入账并打印：入账成功后打开本单打印预览，确认后才出纸；已入账可直接打印本单，防止重复提交。保留2.4的居中放大打印标题；API、云盒设置、原有数据及安装前本机保护点机制保持不变。"
 }
