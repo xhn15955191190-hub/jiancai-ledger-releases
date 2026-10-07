@@ -1,7 +1,7 @@
 {
-  "versionCode": 28,
-  "versionName": "2.8",
-  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.8/jiancai-ledger-v2.8.apk",
-  "sha256": "101aaa23886e87e99d702d8e8eabc1b95b00c2a7a27f88816288add9604dfe62",
-  "notes": "客户管理和商品管理增加返回按钮；本单商品名称可修改，保留原商品和库存关联；新增本单分次收款、销账与流水，支持散客和注册客户；语音空单重新进入恢复默认，有商品保留客户和商品；收款后AI账单与打印单显示最新已收、欠款和收款方式。保持原包名和签名，不清空账单、API或云盒设置，更新安装前继续创建并校验本机保护点。"
+  "versionCode": 29,
+  "versionName": "2.9",
+  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.9/jiancai-ledger-v2.9.apk",
+  "sha256": "dd79d965c25cc559d268053c6d49b5faedcd80366c8ef09b9921a47133f01406",
+  "notes": "修复语音开单连续开单时上一单状态阻止入账并打印的问题；按钮无法入账时显示具体原因；保留入账后打印预览、防重复入账及原有账单、API和云盒设置。安装前仍须完成本机数据保护点校验，请勿卸载旧版。"
 }
