@@ -1,7 +1,7 @@
 {
-  "versionCode": 31,
-  "versionName": "2.11",
-  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.11/jiancai-ledger-v2.11.apk",
-  "sha256": "1e4a7e4a2ef7fe02db2630b855a1216e6dac162ea1c9bd89da3b0f47bf8db42c",
-  "notes": "修复语音开下一单和打印预览复用旧单的问题；加强保存与入账的重复提交保护、草稿恢复、收款及欠款计算；优化语音取消和超时、后台草稿保存；加强账务备份一致性与恢复保护，清理旧更新状态。延续原包名和签名，不主动清除账单、客户、商品、API 或云盒设置。请使用软件内更新入口，完成校验后选择备份并安装，勿卸载旧版。代码和离线回归已验证，真实设备打印与升级效果待验收。"
+  "versionCode": 34,
+  "versionName": "2.14",
+  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.14/jiancai-ledger-v2.14.apk",
+  "sha256": "790ebe09f5372199194b615bcef21e10b813a52a3a0cb4d8bcd7b4b0a221a71c",
+  "notes": "2.14 累积修复版，可从现有版本直接升级，无需逐个安装中间版本。修复语音开下一单、入账打印、重复提交与状态衔接；修复分批退货、优惠报表、成本和跨期尾差；合并资料保留别名与库存流水，保护回收站恢复；完善附件备份校验，切后台取消待执行自动开麦。保持原包名、签名及数据库结构，不主动清空账单、客户、商品、API 或云盒设置。更新前请结束当前开单和录音，回到首页使用软件内更新，完成校验后选择备份并安装；不要卸载旧版。已通过代码、隔离回归和安装包验证，实际平板与打印效果仍需更新后验收。"
 }
