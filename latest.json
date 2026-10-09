@@ -1,7 +1,7 @@
 {
-  "versionCode": 34,
-  "versionName": "2.14",
-  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.14/jiancai-ledger-v2.14.apk",
-  "sha256": "790ebe09f5372199194b615bcef21e10b813a52a3a0cb4d8bcd7b4b0a221a71c",
-  "notes": "2.14 累积修复版，可从现有版本直接升级，无需逐个安装中间版本。修复语音开下一单、入账打印、重复提交与状态衔接；修复分批退货、优惠报表、成本和跨期尾差；合并资料保留别名与库存流水，保护回收站恢复；完善附件备份校验，切后台取消待执行自动开麦。保持原包名、签名及数据库结构，不主动清空账单、客户、商品、API 或云盒设置。更新前请结束当前开单和录音，回到首页使用软件内更新，完成校验后选择备份并安装；不要卸载旧版。已通过代码、隔离回归和安装包验证，实际平板与打印效果仍需更新后验收。"
+  "versionCode": 35,
+  "versionName": "2.15",
+  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.15/jiancai-ledger-v2.15.apk",
+  "sha256": "27d74bc28ce9650b5fedc6c9e65dee5ef2eefe92647cd2dacd076aebda2df80f",
+  "notes": "2.15 打印文字优化：打印预览和实际打印单中的“运杂”统一改为“运费”。仅调整文字，不改变金额计算或打印布局，包含 2.14 的全部修复；旧版本可直接更新到 2.15，无需先安装 2.14。保留原包名、签名、数据库及 API/云盒设置存储。请结束开单和录音后，在软件内完成备份并覆盖安装，不要卸载旧版。"
 }
