@@ -1,7 +1,7 @@
 {
-  "versionCode": 37,
-  "versionName": "2.17",
-  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.17/jiancai-ledger-v2.17.apk",
-  "sha256": "5cfbbcc0be605a0f4d75eee0b7ebec26d0fcaf8c77262b49e376c12705203ada",
-  "notes": "2.17 累计更新：改善打印准备稳定性，转换结果查询和文件下载遇到短暂网络故障时有限重试，实际打印下发不自动重发，避免重复出纸；拦截空文件和不完整下载；打印异常明确显示出错环节和不含密钥的诊断码，修复账单变化时提示消失。合并历史退货金额保护、管理员修改与日志一致性、更新优先检查最新版等改进。可从2.15直接更新，无需安装2.16。保留原账单、API和云盒设置；请从软件内检查更新，安装前必须成功创建并校验本机保护点，勿卸载旧版。自动化回归已通过，具体平板故障和实际出纸仍待现场验证。"
+  "versionCode": 38,
+  "versionName": "2.18",
+  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.18/jiancai-ledger-v2.18.apk",
+  "sha256": "54ddf7a9788ed00ec6bea3ed7416f42953b587b01ff53afd046758031ab0651d",
+  "notes": "新增语音开单模型选择：保留 GPT-5.6 Terra、GPT-5.6 Luna 和 DeepSeek Flash，加入 GPT-6 Luna、GPT-6.1 Sol、DeepSeek V4 Pro。修复 DeepSeek 模型选择与实际请求、连接测试不一致的问题，适配新模型参数。保留当前默认选择、API 与打印机云盒设置，录音转文字和更新前数据保护机制不变。更新后在“设置 → AI 服务设置”手动选择并测试连接；模型可用性取决于 API 账号权限与额度，请核对识别结果。"
 }
