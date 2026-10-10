@@ -1,7 +1,7 @@
 {
-  "versionCode": 38,
-  "versionName": "2.18",
-  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.18/jiancai-ledger-v2.18.apk",
-  "sha256": "54ddf7a9788ed00ec6bea3ed7416f42953b587b01ff53afd046758031ab0651d",
-  "notes": "新增语音开单模型选择：保留 GPT-5.6 Terra、GPT-5.6 Luna 和 DeepSeek Flash，加入 GPT-6 Luna、GPT-6.1 Sol、DeepSeek V4 Pro。修复 DeepSeek 模型选择与实际请求、连接测试不一致的问题，适配新模型参数。保留当前默认选择、API 与打印机云盒设置，录音转文字和更新前数据保护机制不变。更新后在“设置 → AI 服务设置”手动选择并测试连接；模型可用性取决于 API 账号权限与额度，请核对识别结果。"
+  "versionCode": 43,
+  "versionName": "2.23",
+  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.23/jiancai-ledger-v2.23.apk",
+  "sha256": "3c7552b4275d68548538031005526f2fb8e4b73548f7cdb1aad32eb537c515d4",
+  "notes": "手动开单和语音开单新增日期选择按钮，可用日历选择旧单日期；不选择时按实际入账当天保存。已选日期随草稿保留，并统一用于账单查询、详情和打印；开始新单恢复默认当天。保留原包名、签名、账单、客户、商品、API 与云盒设置，更新前继续创建并校验本机数据保护点。此版本为累计更新，无需逐个安装中间版本。"
 }
