@@ -1,7 +1,7 @@
 {
-  "versionCode": 43,
-  "versionName": "2.23",
-  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.23/jiancai-ledger-v2.23.apk",
-  "sha256": "3c7552b4275d68548538031005526f2fb8e4b73548f7cdb1aad32eb537c515d4",
-  "notes": "手动开单和语音开单新增日期选择按钮，可用日历选择旧单日期；不选择时按实际入账当天保存。已选日期随草稿保留，并统一用于账单查询、详情和打印；开始新单恢复默认当天。保留原包名、签名、账单、客户、商品、API 与云盒设置，更新前继续创建并校验本机数据保护点。此版本为累计更新，无需逐个安装中间版本。"
+  "versionCode": 47,
+  "versionName": "2.27",
+  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.27/jiancai-ledger-v2.27.apk",
+  "sha256": "a801226b3110605ba2c5e24d76f33f019a76bd1d364ef4fc13da870551c9d01b",
+  "notes": "本次为累计更新，可直接更新至 2.27，无需逐个安装中间版本。修正语音仅说商品时默认散客的判断；新增多账单算总账，可先按指定客户、日期及付款状态筛选，再勾选账单汇总应收、已收和欠款；手动开单选商品时可直接新增商品并选用。算总账只做汇总，不会合并账单或自动销账。沿用原包名及签名，安装前必须创建并校验最新本机保护点；保留账单、客户、商品及 API 和打印设置。"
 }
