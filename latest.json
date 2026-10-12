@@ -1,7 +1,7 @@
 {
-  "versionCode": 48,
-  "versionName": "2.28",
-  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.28/jiancai-ledger-v2.28.apk",
-  "sha256": "103d827da17ececf4e34b8c7a59e57d2a41329813beba3e9d6f5971060ccf0e9",
-  "notes": "本次为累计更新，可直接更新至 2.28，无需逐个安装中间版本。新增所选账单汇总对账单：筛选客户并勾选账单后，可预览、分享 PDF 或通过原云盒打印；只汇总，不合并账单、不自动销账。新增一键导出脱敏故障信息，由用户自行选择分享，不包含 API 密钥、打印授权、客户商品名称和账单金额。优化默认散客判断、客户搜索、所选账单操作及导出安全。沿用原包名和签名，保留原账单、客户、商品及 API 和打印机设置；软件内安装前须创建并校验最新本机保护点，未成功则停止安装，不清空数据。"
+  "versionCode": 49,
+  "versionName": "2.29",
+  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.29/jiancai-ledger-v2.29.apk",
+  "sha256": "2bf43387bcfce9de2050700e160e48cd26df12e37ece61777275a2460d86359b",
+  "notes": "修复语音识别出文字后商品未生成的已知数值兼容与反馈问题：支持明确的中文数量和每单位单价，单位冲突不猜测；失败原因在页面持续显示；防止迟到取消或超时覆盖成功状态；脱敏故障导出增加本次运行的语音阶段与结果类别。保留现有账单、API和打印机设置，保留更新前本机保护点校验。"
 }
