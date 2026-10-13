@@ -1,7 +1,7 @@
 {
-  "versionCode": 49,
-  "versionName": "2.29",
-  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.29/jiancai-ledger-v2.29.apk",
-  "sha256": "2bf43387bcfce9de2050700e160e48cd26df12e37ece61777275a2460d86359b",
-  "notes": "修复语音识别出文字后商品未生成的已知数值兼容与反馈问题：支持明确的中文数量和每单位单价，单位冲突不猜测；失败原因在页面持续显示；防止迟到取消或超时覆盖成功状态；脱敏故障导出增加本次运行的语音阶段与结果类别。保留现有账单、API和打印机设置，保留更新前本机保护点校验。"
+  "versionCode": 50,
+  "versionName": "2.30",
+  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.30/jiancai-ledger-v2.30.apk",
+  "sha256": "5d192ab26acba5aeb3edb3ef561be8310ab0c8b57d3a9f2c85576248384e27c3",
+  "notes": "语音开单确认入账时，商品库没有的新商品自动建档，仅保存名称与可确定的单位，默认售价留空；本单单价和已有商品售价保持不变。同名、别名及停用记录查重，删掉或未确认的商品不建档，保存失败时随账单一起回滚。保留原包名、签名、账单及API/打印机设置的存储和安装前本机保护点校验流程。请从软件内更新入口覆盖更新，不卸载、不清数据。"
 }
