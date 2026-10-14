@@ -1,7 +1,7 @@
 {
-  "versionCode": 50,
-  "versionName": "2.30",
-  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.30/jiancai-ledger-v2.30.apk",
-  "sha256": "5d192ab26acba5aeb3edb3ef561be8310ab0c8b57d3a9f2c85576248384e27c3",
-  "notes": "语音开单确认入账时，商品库没有的新商品自动建档，仅保存名称与可确定的单位，默认售价留空；本单单价和已有商品售价保持不变。同名、别名及停用记录查重，删掉或未确认的商品不建档，保存失败时随账单一起回滚。保留原包名、签名、账单及API/打印机设置的存储和安装前本机保护点校验流程。请从软件内更新入口覆盖更新，不卸载、不清数据。"
+  "versionCode": 51,
+  "versionName": "2.31",
+  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.31/jiancai-ledger-v2.31.apk",
+  "sha256": "05cb2a96b2a162ff7fe91e3ee2f62fe819e25c2e0aad467f33bdb139b88bb024",
+  "notes": "新增识别文字修改后重新整理：仅在明确未更新草稿时可重试，防止重复加商品。入账后显示新商品建档结果，商品库不保存本单价格。细化本机数据保护点失败原因。保留原账单、客户、商品、API 和打印机设置，安装前仍先创建并校验本机保护点。"
 }
