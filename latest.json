@@ -1,7 +1,7 @@
 {
-  "versionCode": 51,
-  "versionName": "2.31",
-  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.31/jiancai-ledger-v2.31.apk",
-  "sha256": "05cb2a96b2a162ff7fe91e3ee2f62fe819e25c2e0aad467f33bdb139b88bb024",
-  "notes": "新增识别文字修改后重新整理：仅在明确未更新草稿时可重试，防止重复加商品。入账后显示新商品建档结果，商品库不保存本单价格。细化本机数据保护点失败原因。保留原账单、客户、商品、API 和打印机设置，安装前仍先创建并校验本机保护点。"
+  "versionCode": 52,
+  "versionName": "2.32",
+  "apkUrl": "https://github.com/xhn15955191190-hub/jiancai-ledger-releases/releases/download/v2.32/jiancai-ledger-v2.32.apk",
+  "sha256": "69823f5fe3318e6baff8d7436d4c028168f52c7041f2627f82a58ece4a69bcac",
+  "notes": "修复语音文字重新整理超时被误显示为取消的问题；保留数量、单价和运费的具体修正建议，避免旧提示带入下一轮；手动检查更新增加第二个官方清单入口复核，减少缓存导致的漏报。保留原账单、客户、商品、API和打印机设置，继续执行安装前新鲜本机保护点校验。可直接更新到此版本，无需依次安装中间版本，请勿卸载旧版。"
 }
